@@ -1,0 +1,65 @@
+*{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+     font-family: "poppin" sans-serif;
+}
+.navbar{
+    background-image:linear-gradient(to right,#a517ba,#5f1178);
+    color:white;
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.nav-item{
+    padding:15px;
+    color: white;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color:white;
+}
+.votingBtn{
+    padding:12px 24px;
+    background-image:linear-gradient(to right,#a517ba,#5f1178) ;
+    border-radius:5px;
+    border:2px white solid;
+    transition: transform 250ms ease-in-out;
+    margin-left: auto;
+
+}
+.votingBtn:hover{
+    scale: (1.1);
+}
+.votingBtn.active{
+    transform:scale(0.9);
+}
+#banner{
+    background-image:linear-gradient(to right,#a517ba,#5f1178);
+    color:white;
+    padding-top: 5%;
+}
+.bannerh1{
+    font-size:40px;
+    font-weight:600;
+    margin-top:100px;
+}
+#about{
+    background-image:linear-gradient(to right,#a517ba,#5f1178);
+}
+.contact-form-home{
+    border:2px #5f1178 solid;
+    padding:20px;
+}
+.submit-btn{
+    padding:12px 24px;
+    background-image:linear-gradient(to right,#a517ba,#5f1178) ;
+    border-radius:5px;
+    border:2px white solid;
+    transition: transform 250ms ease-in-out;
+    margin-left: auto;
+}
+.footer-social{
+    color:linear-gradient(to right, #a517ba, #5f1178);
+}
+    
